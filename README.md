@@ -27,6 +27,8 @@ Copy text into .txt file and place it into /data folder.
 
 once files are ready - 
 run GO script which would read those files and send in chunks to GCP
-'''bash 
+'''bash
+export GOOGLE_APPLICATION_CREDENTIALS={path to credentials file}
+export DATA_PATH=data  
 go cmd/main.go
 '''

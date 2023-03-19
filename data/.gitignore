@@ -2,5 +2,4 @@
 *
 
 # Except for these files
-!template.json
 !.gitignore
